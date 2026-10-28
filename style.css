@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin:0;  
+}
+
+#header{
+    color: white;
+    background:linear-gradient(100deg,rgb(85, 20, 20),rgb(131, 38, 38),rgb(202, 110, 48));
+    padding:25px;
+
+    text-align: center;
+}
+
+#header h1{
+    text-transform: uppercase;
+    text-shadow: 4px 3px 4px brown;
+}
+
+#header p{
+    margin: 1% auto;
+}
+
+nav{
+    background:linear-gradient(100deg,rgb(85, 20, 20),rgb(131, 38, 38),rgb(202, 110, 48));
+    
+    position: sticky;
+    top:0;
+    text-align: center;
+    padding:1.5%;
+}
+
+nav ul li{
+    display:inline-block;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    background: rgb(189, 160, 160);
+    border-radius: 10px 10px 0 0;
+}
+
+#Acceuil{
+    color:brown;
+    background:rgb(247,247,225);
+}
+
+body{
+    background: rgb(247,247,225);
+}
+
+
+.container{
+  
+    width:min(960px, calc(100% - 40px));
+    margin: 30px auto;
+}
+
+.contenu-princal{
+    float: left;
+    width: 70%;
+}
+
+aside.lateral{
+    float: right;
+    width: 25%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.contenu-princal article{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px rgb(233,233,217);
+    padding: 2%;
+}
+
+.contenu-princal article img{
+    float: left;
+    margin: 0 2% 0 0;
+    border-radius: 10px;
+}
+
+h2{
+    color: brown;
+}
+
+/*******************Notre Carte*************/
+
+#carte, #galerie, aside.lateral{
+background: white;
+border-radius: 10px;
+box-shadow: 0 5px rgb(233,233,217); 
+margin-top: 5%;
+padding: 2%;
+}
+
+.carte{
+    display: inline-block;
+width: 32%;
+    padding-top: 2%;
+    padding-right: 5%;
+}
+
+.carte ul {
+padding-left: 15px;
+}
+
+/***************GALERIE*********/
+
+section figure{
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 2px 3px rgb(255,123,0);
+    width: calc(50% - 10px);
+
+    padding: 10px;
+    margin: .5%;
+}
+
+section figure img{
+    object-fit: cover;
+    border-radius: 5%;
+    width: calc(50% - 10px)
+}
+
+section figure .cadre{
+position: relative;
+}
+
+span.badge{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    padding:3%;
+    background: rgb(226, 183, 9);
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+figcaption {
+font-weight: bold;
+}
+
+aside.lateral{
+    margin:0;
+}
+
+aside.lateral dt{
+    margin-top: 10%;
+}
+
+#retour-haut{
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 10%;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+footer{
+    background: brown;
+    color: white;
+    text-align: center;
+    padding: 3%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
